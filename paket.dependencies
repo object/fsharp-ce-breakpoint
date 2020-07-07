@@ -1,0 +1,14 @@
+version 5.153.0
+
+redirects: on
+
+source https://nuget.org/api/v2
+framework: netcoreapp3.1, netstandard2.1
+
+nuget Akka = 1.4.8
+nuget Akkling
+nuget FSharp.Core = 4.7
+nuget NETStandard.Library ~> 2
+nuget xunit
+nuget xunit.runner.console
+nuget xunit.runner.visualstudio version_in_path: true

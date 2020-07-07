@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTests", "UnitTests\UnitTests.fsproj", "{01DACE02-9FBC-4F1A-916E-1C306B7D1257}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MessageHandler", "MessageHandler\MessageHandler.fsproj", "{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Mono|Any CPU = Debug Mono|Any CPU
+		Debug Mono|x86 = Debug Mono|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release Mono|Any CPU = Release Mono|Any CPU
+		Release Mono|x86 = Release Mono|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug Mono|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug Mono|Any CPU.Build.0 = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Debug|x86.Build.0 = Debug|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release Mono|Any CPU.ActiveCfg = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release Mono|Any CPU.Build.0 = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release Mono|x86.ActiveCfg = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release Mono|x86.Build.0 = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release|x86.ActiveCfg = Release|Any CPU
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257}.Release|x86.Build.0 = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug Mono|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug Mono|Any CPU.Build.0 = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release Mono|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release Mono|Any CPU.Build.0 = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release Mono|x86.ActiveCfg = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release Mono|x86.Build.0 = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01DACE02-9FBC-4F1A-916E-1C306B7D1257} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+		{1BA8F28B-A1E2-4AF9-9EFE-E2B3D3B434B9} = {02FC2ADF-97A8-42E1-A779-BB465B5D2AB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1DF15E8-7E88-4792-9B41-DA1F273E221F}
+	EndGlobalSection
+EndGlobal
